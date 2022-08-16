@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+body{
+background-color:#92a8d1;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+     font-family: 'Mouse Memoirs', sans-serif;
+
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color:black;
+}
+nav ul li{
+    padding: 0 12px;
+    color: white;
+    cursor: pointer;
+}
+.brand img{
+    width: 45px;
+    padding: 0 10px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border: 12px;
+background-image: url(bg.jpg);
+backface-visibility: inherit;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+  
+}
+
+.bottom.masternamesong{
+    margin-right: 0px;
+}
+
+
+.icons{
+    margin-top: -25px;
+    margin-left: 540px;
+}
+
+.icons i{
+    cursor: pointer;
+    margin: 2px;
+    margin-bottom: 4px;
+
+}
+#playingsongname{
+    margin-left: 80px;
+    
+}
+#playingimg{
+    width: 10px;
+    border-radius: 5px;
+
+}
+#mybar{
+    width: 70vw;
+    cursor: pointer;
+   margin-left: 8px;
+   margin-right: 8px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+     
+}
+#volumebar{
+    width: 7vw;
+    
+}
+
+#dura1{
+    margin-left: 127px;
+    padding-left: 10px;
+    
+}
+#dura2{
+    
+    padding-right: 30px;
+    
+}
+
+.songitemcontainer{
+    margin-top: 30px;
+}
+
+.songItem{
+height: 50px;
+display: flex;
+/*width: 110%;*/
+background-color: white;
+color: black;
+margin: 12px 10px;
+justify-content:space-between ;
+align-items: center;
+border-radius: 34px;
+}
+.songItem img{
+width: 35px;
+margin: 0 15px;
+border-radius: 5px;
+}
+
+.timestamp{
+    margin:0 20px;
+    
+}
+.songlistplay i{
+    cursor: pointer;
+}
+
+.songlistplay{
+    padding: 4px;
+}
